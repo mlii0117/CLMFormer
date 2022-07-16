@@ -10,13 +10,13 @@
 
 An example of model executions is stated below, where we run informer+ours for the prediction length of 24 for the Etth1 dataset.
 
-'''
+```
 python -u main.py --model informer --data ETTh1 --data_path "Etth1.csv" --features M --seq_len 48 --label_len 48 --pred_len 24 --e_layers 1 --d_layers 1 --attn prob --des 'Exp' --itr 3 --d_model 1024 --rm_num_slots 1 --rm_d_model 1024 --rm_num_heads 4 --curriculum 1 --dropout_num 100 --dropout_lim 0.1.
-'''
+```
 
 The key commands for the models are:
 
-'''
+```
 --model <base_model_type> 
 --data <dataloader> 
 --data_path <file_name> 
@@ -39,12 +39,12 @@ The key commands for the models are:
 --curriculum <if_use_CL_dropout> 
 --dropout_num <iterations_for_changing_dropout>
 --dropout_lim <maximum_dropout_rate> 
-'''
+```
 
 More details of the parameter can be obtained from: 
 
-'''
+```
 python main.py -h
-'''
+```
 
 
