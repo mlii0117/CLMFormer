@@ -1,5 +1,5 @@
 # GMT for Time Series Forecasting
- This is the official code for our paper title "Generalizable Memory-driven Transformer for Multivariate Long Sequence Time-series Forecasting"
+ This is the official code for our paper title "Generalizable Memory-driven Transformer for Multivariate Long Sequence Time-series Forecasting", [Arxiv](https://arxiv.org/abs/2207.07827).
 
 
 
@@ -47,4 +47,12 @@ More details of the parameter can be obtained from:
 python main.py -h
 ```
 
-
+If you found this code is useful, please cite us:
+```
+@article{li2022generalizable,
+  title={Generalizable Memory-driven Transformer for Multivariate Long Sequence Time-series Forecasting},
+  author={Li, Mingjie and Zhao, Xiaoyun and Liu, Rui and Li, Changlin and Wang, Xiaohan and Chang, Xiaojun},
+  journal={arXiv preprint arXiv:2207.07827},
+  year={2022}
+}
+```
