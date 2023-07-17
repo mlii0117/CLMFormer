@@ -51,7 +51,7 @@ If you found this code is useful, please cite us:
 ```
 @article{li2022generalizable,
   title={Generalizable Memory-driven Transformer for Multivariate Long Sequence Time-series Forecasting},
-  author={Li, Mingjie and Zhao, Xiaoyun and Liu, Rui and Li, Changlin and Wang, Xiaohan and Chang, Xiaojun},
+  author={Zhao, Xiaoyun and Liu, Rui and Li, Mingjie and Shi Guangsi and Li, Changlin and Wang, Xiaohan and Chang, Xiaojun},
   journal={arXiv preprint arXiv:2207.07827},
   year={2022}
 }
